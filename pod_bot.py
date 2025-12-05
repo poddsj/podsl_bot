@@ -14,8 +14,8 @@ logger = logging.getLogger(__name__)
 
 # Конфигурация
 BOT_TOKEN = "your_token"
-CHANNEL_ID = "your_tgc"
-ADMIN_IDS = [id_admins]  # Замени на реальные ID администраторов
+CHANNEL_ID = "@podolsk14" # <-- Пример
+ADMIN_IDS = [6059441879, 6428177555, 2094730348]  # Замени на свои ID администраторов
 
 user_last_message_time = {}  # Для ограничения частоты отправки
 private_conversations = {}  # Для хранения приватных диалогов {user_id: message_id}
