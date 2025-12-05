@@ -17,7 +17,6 @@ BOT_TOKEN = "your_token"
 CHANNEL_ID = "your_tgc"
 ADMIN_IDS = [id_admins]  # Замени на реальные ID администраторов
 
-# Хранилища данных
 user_last_message_time = {}  # Для ограничения частоты отправки
 private_conversations = {}  # Для хранения приватных диалогов {user_id: message_id}
 user_message_history = defaultdict(list)  # История сообщений пользователя админу
