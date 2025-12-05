@@ -13,7 +13,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Конфигурация
-BOT_TOKEN = "your_token"
+BOT_TOKEN = "7830781446:AAFWfIU1dt5_LIgqEWT6JWuYvr0RZmCH4A8"
 CHANNEL_ID = "@podolsk14" # <-- Пример
 ADMIN_IDS = [6059441879, 6428177555, 2094730348]  # Замени на свои ID администраторов
 
