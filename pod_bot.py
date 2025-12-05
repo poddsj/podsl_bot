@@ -13,9 +13,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Конфигурация
-BOT_TOKEN = "7830781446:AAFWfIU1dt5_LIgqEWT6JWuYvr0RZmCH4A8"
-CHANNEL_ID = "@podolsk14"
-ADMIN_IDS = [6428177555, 6059441879, 2094730348]  # Замени на реальные ID администраторов
+BOT_TOKEN = "your_token"
+CHANNEL_ID = "your_tgc"
+ADMIN_IDS = [id_admins]  # Замени на реальные ID администраторов
 
 # Хранилища данных
 user_last_message_time = {}  # Для ограничения частоты отправки
